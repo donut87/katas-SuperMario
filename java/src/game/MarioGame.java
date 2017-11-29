@@ -6,7 +6,6 @@ import java.util.function.Function;
 
 import actor.IamSuperMario;
 import actor.SmallMario;
-import properties.ConfigurableLive;
 import properties.IamAlive;
 
 public class MarioGame {
@@ -23,7 +22,8 @@ public class MarioGame {
         //
         // var konfiguriertesLeben = new KonfigurierbaresLeben(0, begrenztesLeben,
         // extraLeben);
-        ConfigurableLive live = new ConfigurableLive(0, remainingLives, onExtraLive);
+		// ConfigurableLive live = new ConfigurableLive(0, remainingLives,
+		// onExtraLive);
         return new MarioGame();
     }
 
